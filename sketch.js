@@ -15,8 +15,8 @@ var gameOver, restart;
 
 
 function preload(){
-  jumpSound = loadSound("jump.mp3")
-  collidedSound = loadSound("collided.mp3")
+  jumpSound = loadSound("jump.wav")
+  collidedSound = loadSound("collided.wav")
   
   backgroundImg = loadImage("backgroundImg.png")
   sunAnimation = loadImage("sun.png");
